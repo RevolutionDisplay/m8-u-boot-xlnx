@@ -24,6 +24,10 @@
 #undef CONFIG_BOOTDELAY
 #define CONFIG_BOOTDELAY 1
 
+/* remove hard coded configs */
+#undef CONFIG_IPADDR
+#undef CONFIG_SERVERIP
+
 /* simplify config */
 #undef CONFIG_EXTRA_ENV_SETTINGS
 #define CONFIG_EXTRA_ENV_SETTINGS	\
